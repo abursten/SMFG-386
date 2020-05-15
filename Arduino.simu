@@ -1,0 +1,21 @@
+<circuit noLinStep="10" reactStep="50" noLinAcc="5" animate="0" type="simulide_0.1" speed="1000000">
+ 
+Led-2: 
+<item valLabRot="0" valLabelx="0" labely="-24" id="Led-2" Grounded="false" Threshold="2.3999999999999999" Color="0" valLabely="0" labelx="-16" MaxCurrent="0.029999999999999999" itemtype="Led" objectName="Led-2" hflip="1" labelrot="0" y="-140" Resistance="0.59999999999999998" rotation="90" x="-132" vflip="1" Show_id="false"/>
+ 
+Arduino Uno-1: 
+<item valLabRot="0" valLabelx="0" labely="-20" id="Arduino Uno-1" valLabely="0" labelx="0" itemtype="Arduino" objectName="Arduino Uno-1" hflip="1" labelrot="0" y="-228" Program="../../../../Documents/PlatformIO/Projects/Arduino Uno Lab 8/.pio/build/uno/firmware.hex" Mhz="16" Ser_Monitor="false" rotation="0" x="-68" vflip="1" Show_id="true" Ser_Port="false"/>
+ 
+Connector-3: 
+<item valLabRot="0" valLabelx="0" labely="-24" id="Connector-3" endpinid="Led-2-lPin" valLabely="0" labelx="-16" itemtype="Connector" startpinid="Arduino Uno-1-PD2" objectName="Connector-3" enodeid="enode-3" hflip="1" labelrot="0" y="-196" pointList="-60,-196,-132,-196,-132,-156" rotation="0" x="-60" vflip="1" Show_id="false"/>
+ 
+Connector-4: 
+<item valLabRot="0" valLabelx="0" labely="-24" id="Connector-4" endpinid="Arduino Uno-1-GND0" valLabely="0" labelx="-16" itemtype="Connector" startpinid="Led-2-rPin" objectName="Connector-4" enodeid="enode-4" hflip="1" labelrot="0" y="-124" pointList="-132,-124,-132,-92,-60,-92" rotation="0" x="-132" vflip="1" Show_id="false"/>
+ 
+PlotterWidget: 
+<item width="200" minimumSize="" acceptDrops="false" minimumSizeHint="" focusPolicy="0" cursor="" rect="" maximized="false" windowOpacity="1" objectName="PlotterWidget" updatesEnabled="true" layoutDirection="0" modal="false" mouseTracking="false" maximumWidth="1000" windowIconText="" geometry="" size="" childrenRegion="" focus="false" styleSheet="" windowFilePath="" whatsThis="" frameSize="" childrenRect="" autoFillBackground="false" isActiveWindow="true" enabled="true" baseSize="" minimumHeight="200" sizeHint="" minimized="false" contextMenuPolicy="1" y="0" MaxVolt="500" MinVolt="-500" itemtype="Plotter" frameGeometry="" accessibleDescription="" fullScreen="false" locale="" x="0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" toolTip="" inputMethodHints="0" windowModality="0" palette="" windowIcon="" height="200" windowTitle="" maximumSize="" accessibleName="" sizePolicy="" sizeIncrement="" maximumHeight="200" visible="false" normalGeometry="" statusTip="" minimumWidth="200" toolTipDuration="-1" pos="" windowModified="false"/>
+ 
+SerialPortWidget: 
+<item width="313" minimumSize="" acceptDrops="false" minimumSizeHint="" focusPolicy="0" cursor="" rect="" maximized="false" windowOpacity="1" objectName="SerialPortWidget" updatesEnabled="true" layoutDirection="0" modal="false" mouseTracking="false" maximumWidth="450" windowIconText="" geometry="" size="" childrenRegion="" focus="false" styleSheet="" windowFilePath="" whatsThis="" frameSize="" childrenRect="" autoFillBackground="false" isActiveWindow="true" enabled="true" baseSize="" minimumHeight="0" sizeHint="" minimized="false" contextMenuPolicy="1" y="0" SettingsProp=",0,3,0,0,0" itemtype="SerialPort" frameGeometry="" accessibleDescription="" fullScreen="false" locale="" x="0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" toolTip="" inputMethodHints="0" windowModality="0" palette="" windowIcon="" height="141" windowTitle="Settings" maximumSize="" accessibleName="" sizePolicy="" sizeIncrement="" maximumHeight="170" visible="false" normalGeometry="" statusTip="" minimumWidth="0" toolTipDuration="-1" pos="" windowModified="false"/>
+ 
+</circuit>
